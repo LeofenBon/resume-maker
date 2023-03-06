@@ -15,9 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Footer />
+        <Navbar isloggedIn={false} />
         {children}
-        <Navbar />
+        <Footer />
       </body>
     </html>
   );
